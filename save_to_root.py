@@ -11,6 +11,7 @@ from ttgamma.utils.plotting import RebinHist, SetRangeHist
 # NOTE: your timestamps will differ!
 outputMC = accumulate(
     [
+<<<<<<< HEAD
 	util.load("Outputs/output_MCTTGamma_run20220112_120649.coffea"),
         util.load("Outputs/output_MCSingleTop_run20220112_094110.coffea"),
         util.load("Outputs/output_MCTTbar1l_run20220112_132255.coffea"),
@@ -18,6 +19,15 @@ outputMC = accumulate(
         util.load("Outputs/output_MCWJets_run20220112_094156.coffea"),
         util.load("Outputs/output_MCZJets_run20220112_094237.coffea"),
         util.load("Outputs/output_MCOther_run20220112_101705.coffea"),
+=======
+        util.load("Outputs/output_MCZJets_run20220112_094237.coffea"),
+        util.load("Outputs/output_MCWJets_run20220112_094156.coffea"),
+        util.load("Outputs/output_MCSingleTop_run20220112_094110.coffea"),
+        util.load("Outputs/output_MCOther_run20220112_101705.coffea"),
+        util.load("Outputs/output_MCTTbar2l_run20220112_121152.coffea"),
+        util.load("Outputs/output_MCTTGamma_run20220112_120649.coffea"),
+        util.load("Outputs/output_MCTTbar1l_run20220112_132255.coffea")
+>>>>>>> d897f3651fff2881f3a0f0c3255e9f8c363d2cfb
     ]
 )
 
@@ -55,10 +65,17 @@ grouping_dataset = {
         "TTWtoQQ",
         "TTZtoLL",
         #"GJets_HT40To100",
+<<<<<<< HEAD
         #"GJets_HT100To200",
         #"GJets_HT200To400",
         #"GJets_HT400To600",
         #"GJets_HT600ToInf",
+=======
+       # "GJets_HT100To200",
+       # "GJets_HT200To400",
+       # "GJets_HT400To600",
+       # "GJets_HT600ToInf",
+>>>>>>> d897f3651fff2881f3a0f0c3255e9f8c363d2cfb
         "ZZ",
         "WZ",
         "WW",
